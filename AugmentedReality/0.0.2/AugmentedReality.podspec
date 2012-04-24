@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   # Specify the location from where the source should be retreived.
   #
-  s.source   = { :git => 'https://github.com/ShadelSoftware/CocoaPodSpecs.git', :tag => '0.0.2' }
+  s.source   = { :git => 'git@github.com:ShadelSoftware/AugmentedReality.git', :tag => '0.0.2' }
   # s.source   = { :svn => 'http://shadelsoftware.com/AugmentedReality/tags/1.0.0' }
   # s.source   = { :hg  => 'http://shadelsoftware.com/AugmentedReality', :revision => '1.0.0' }
 
