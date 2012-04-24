@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
   # over the selected files.
   # (See http://rake.rubyforge.org/classes/Rake/FileList.html.)
   #
-  s.source_files = 'Classes', 'Classes/**/*.{h,m}'
+  s.source_files = 'Classes', 'Bind/**/*.{h,m}'
 
   # A list of resources included with the Pod. These are copied into the
   # target bundle with a build phase script.
@@ -45,15 +45,15 @@ Pod::Spec.new do |s|
   # s.resources = "Resources/*.png"
 
   # A list of paths to remove after installing the Pod without the
-  # `--no-clean' option. These can be shadelsoftware.coms, docs, and any other type
+  # `--no-clean' option. These can be examples, docs, and any other type
   # of files that are not needed to build the Pod.
   #
   # *NOTE*: Never remove license and README files.
   #
   # Also allows the use of the FileList class like `source_files does.
   #
-  # s.clean_path = "shadelsoftware.coms"
-  # s.clean_paths = "shadelsoftware.coms", "doc"
+  # s.clean_path = "examples"
+  # s.clean_paths = "examples", "doc"
 
   # Specify a list of frameworks that the application needs to link
   # against for this Pod to work.
