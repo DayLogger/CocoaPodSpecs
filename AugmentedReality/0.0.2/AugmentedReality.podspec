@@ -58,7 +58,7 @@ Pod::Spec.new do |s|
   # Specify a list of frameworks that the application needs to link
   # against for this Pod to work.
   #
-  # s.framework = 'SomeFramework'
+  s.framework = 'UIKit'
   # s.frameworks = 'SomeFramework', 'AnotherFramework'
 
   # Specify a list of libraries that the application needs to link
