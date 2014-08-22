@@ -7,8 +7,8 @@ Pod::Spec.new do |s|
   s.author   = { 'Kiip, Inc.' => 'http://kiip.com' }
   s.source   = { :http => "http://kiip-private.s3.amazonaws.com/Kiip-iOS-SDK-v2.1.0.zip" }
   s.prepare_command = "mv ./Kiip-iOS-SDK/KiipSDK.framework ."
-  s.description = 'KiipSDK for offering rewards in your app.'
   s.platform = :ios
+  s.requires_arc = true
 
   s.preserve_paths = 'KiipSDK.framework/*'
   s.vendored_frameworks = 'KiipSDK.framework'
